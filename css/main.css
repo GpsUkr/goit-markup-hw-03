@@ -56,6 +56,22 @@ li.pointer {
   align-items: center;
 }
 
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  }
+
+.photo {
+  display: block;
+}
+
 /*Nav-link*/
 
 .header-nav,
@@ -112,7 +128,7 @@ li.pointer {
 .header-logo, 
 .footer-logo {
   letter-spacing: -10px;
-  padding: 24px 8px 25px 8px;
+  /* padding: 24px 8px 25px 8px; */
 }
 
 .site-contact {
@@ -164,7 +180,7 @@ li.pointer {
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
-  text-align: center;
+  text-align: center;    
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--style-color);
@@ -174,6 +190,7 @@ li.pointer {
 }
 
 .hero-btn-link {
+  
   text-align: center;
   margin-bottom: 200px;
   padding: 10px;
@@ -181,6 +198,7 @@ li.pointer {
 }
 
 .hero-btn {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -192,11 +210,11 @@ li.pointer {
 }
 
 .hero-main-btn {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 188%;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -240,6 +258,16 @@ li.pointer {
   overflow: hidden;
 }
 
+.skill {
+  display: inline-flex;
+  gap: 30px;
+ margin-bottom: 94px;
+}
+
+.skill-container {
+  display: flex;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 18px;
@@ -257,6 +285,9 @@ li.pointer {
 }
 
 .skill-style {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 94px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -279,16 +310,37 @@ li.pointer {
   background-color: #f5f4fa;
 }
 
-.work-team {
+.team {
+  margin-bottom: 50px;
+  margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+.team-skil {
+  display: block;
+  }
+
+.work-team {
+  margin-bottom: 50px;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .work-team-list {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -312,9 +364,15 @@ li.pointer {
 
 /*footer*/
 
+
+.footer-address {
+  display: inline;
+  margin-left: 215px;
+}
+
 .style-footer {
   background: #2f303a;
-}
+  }
 
 .last-part-footer {
   font-family: var(--second-font);
@@ -326,6 +384,24 @@ li.pointer {
   color: var(--style-color);
 }
 
+.footer-list {
+  margin-left: 215px;
+  padding-left: 2px;
+}
+
+.footer-site-contakt {
+  /* margin-left: 215px; */
+}
+
+.footer-address {
+  margin-bottom: 9px;
+}
+
+.footer-logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
 .site-contact-list {
   font-style: normal;
   font-weight: 400;
@@ -333,6 +409,7 @@ li.pointer {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--style-color);
+  margin-bottom: 9px;
 }
 
 .footer-mail-link {
