@@ -28,7 +28,8 @@ body {
   background: #2f303a;
 }
 
-.list, .skill {
+.list, 
+.skill {
   list-style: none;
 }
 
@@ -341,13 +342,17 @@ li.pointer {
   display: inline-flex;
   margin-bottom: 30px;
   gap: 30px;
+  border-bottom: 1px solid #EEEEEE;
+  
 }
 
 .main-gallery-work {
   display: inline-flex;
   margin-bottom: 94px;
   gap: 30px;
+  border-bottom: 1px solid #EEEEEE;
 }
+
 
 /*team*/
 
