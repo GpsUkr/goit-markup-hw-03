@@ -88,7 +88,7 @@ li.pointer {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-right: 328px;
+  margin-right: 344px;
   margin-left: 93px;
 }
 
@@ -101,7 +101,7 @@ li.pointer {
   display: flex;
   align-items: center;
   display: inline-block;
-  padding: 47px 0;
+  padding: 32px 0;
 }
 
 .header-nav-link:hover,
@@ -212,6 +212,38 @@ li.pointer {
     
 }
 
+.main-btn {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 50px;
+  margin-top: 94px;
+  justify-content: center;
+ 
+}
+
+.main-btn-list {
+  display: flex;
+  gap: 8px;
+  padding: 6px 25px;
+  justify-content: center;
+}
+
+.hero-main-btn-one {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 25px;
+  border: none;
+}
+
 .hero-main-btn {
   display: inline-block;
   font-family: inherit;
@@ -223,6 +255,9 @@ li.pointer {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
 }
 
 .hero-btn {
@@ -261,6 +296,12 @@ li.pointer {
   overflow: hidden;
 }
 
+/* .main-container {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+} */
+
 .skill {
   display: inline-flex;
   gap: 30px;
@@ -272,6 +313,7 @@ li.pointer {
 }
 
 .main-title {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -280,6 +322,8 @@ li.pointer {
 }
 
 .main-text {
+  margin-top: 4px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -305,6 +349,18 @@ li.pointer {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.main-gallery {
+  display: inline-flex;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.main-gallery-work {
+  display: inline-flex;
+  margin-bottom: 94px;
+  gap: 30px;
 }
 
 /*team*/
