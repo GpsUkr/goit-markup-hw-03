@@ -66,10 +66,7 @@ li.pointer {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  /* margin-left: 215px;
-  margin-top: 60px;
-  margin-bottom: 20px; */
-  }
+}
 
 .photo {
   display: block;
@@ -275,7 +272,9 @@ li.pointer {
 }
 
 .hero-main-btn:hover,
-.hero-main-btn:focus {
+.hero-main-btn:focus, 
+.hero-main-btn-one:hover, 
+.hero-main-btn-one:focus {
   background: var(--accent-color);
   color: var(--style-color);
 }
@@ -296,11 +295,6 @@ li.pointer {
   overflow: hidden;
 }
 
-/* .main-container {
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-} */
 
 .skill {
   display: inline-flex;
@@ -424,11 +418,6 @@ li.pointer {
 /*footer*/
 
 
-/*.footer-address {
-  display: inline;
-  margin-left: 215px;
-} */
-
 .style-footer {
   background: #2f303a;
   }
@@ -462,10 +451,6 @@ li.pointer {
   margin-left: 215px;
   text-align: center;
   justify-content: center;
-}
-
-.link {
- /* text-align: center; */
 }
 
 .footer-logo {
