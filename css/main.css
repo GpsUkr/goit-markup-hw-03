@@ -129,8 +129,7 @@ li.pointer {
 .header-logo, 
 .footer-logo {
   letter-spacing: -10px;
-  /* padding: 24px 8px 25px 8px; */
-}
+} 
 
 .site-contact {
   display: flex;
@@ -406,6 +405,7 @@ li.pointer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  margin-bottom: 30px;
 }
 
 .work-team-style {
