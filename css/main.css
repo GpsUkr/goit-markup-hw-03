@@ -63,9 +63,12 @@ li.pointer {
 }
 
 .footer-container {
-  display: flex;
+  display: inline-block;
   align-items: center;
-  margin-left: 215px;
+  justify-content: center;
+  /* margin-left: 215px;
+  margin-top: 60px;
+  margin-bottom: 20px; */
   }
 
 .photo {
@@ -365,10 +368,10 @@ li.pointer {
 /*footer*/
 
 
-.footer-address {
+/*.footer-address {
   display: inline;
   margin-left: 215px;
-}
+} */
 
 .style-footer {
   background: #2f303a;
@@ -384,25 +387,40 @@ li.pointer {
   color: var(--style-color);
 }
 
+.footer-contact {
+  display: inline-block;
+  margin-left: 215px;
+  gap: 9px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  
+} 
+
 .footer-list {
   margin-left: 215px;
   padding-left: 2px;
 }
 
 .footer-site-contakt {
-  /* margin-left: 215px; */
+  display: inline-block;
+  margin-left: 215px;
+  text-align: center;
+  justify-content: center;
 }
 
-.footer-address {
-  margin-bottom: 9px;
+.link {
+ /* text-align: center; */
 }
 
 .footer-logo {
+  display: inline-block;
   margin-top: 60px;
   margin-bottom: 20px;
-}
+  
+} 
 
 .site-contact-list {
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -410,22 +428,27 @@ li.pointer {
   letter-spacing: 0.03em;
   color: var(--style-color);
   margin-bottom: 9px;
+  
 }
 
 .footer-mail-link {
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .footer-tel-link {
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 60px;
 }
