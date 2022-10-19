@@ -254,7 +254,8 @@ li.pointer {
   cursor:pointer
 }
 
-.hero-main-btn {
+.hero-main-btn,
+.hero-main-btn-one {
   cursor:pointer
 }
 
