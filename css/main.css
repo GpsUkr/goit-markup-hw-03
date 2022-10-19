@@ -152,16 +152,9 @@ li.pointer {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   padding: 24px 8px 25px 8px;
-  
-  
-  
 }
 
 /*main-hero*/
-
-.hero-container {
-  
-}
 
 .content {
   
@@ -279,7 +272,6 @@ li.pointer {
   color: var(--style-color);
 }
 
-
 /*main-skill*/
 
 .visually-hidden {
@@ -294,7 +286,6 @@ li.pointer {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 .skill {
   display: inline-flex;
@@ -416,7 +407,6 @@ li.pointer {
 }
 
 /*footer*/
-
 
 .style-footer {
   background: #2f303a;
