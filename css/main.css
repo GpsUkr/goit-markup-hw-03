@@ -26,6 +26,7 @@ body {
 
 .hero {
   background: #2f303a;
+  padding: 200px 0px;
 }
 
 .list, 
@@ -50,6 +51,8 @@ li.pointer {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-container {
@@ -78,9 +81,8 @@ li.pointer {
 .header-nav,
 .header-style {
   background-color: var(--style-color);
-  display: flex;
-  align-items: center;
-}
+  border-bottom: 1px solid #ECECEC;;
+ }
 
 .header-nav-list {
   display: flex;
@@ -151,23 +153,23 @@ li.pointer {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  padding: 24px 8px 25px 8px;
+  padding: 32px 0px;
 }
 
 /*main-hero*/
 
-.content {
+/* .content {
   
   display: flex;
   align-items: center;
   justify-content: center;
 
-}
+} */
 
-.content-wrap {
+/* .content-wrap {
   width: 696px;
   padding: auto;
-}
+} */
 
 .hero-title {
   font-weight: 900;
@@ -177,21 +179,23 @@ li.pointer {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--style-color);
-  margin-bottom: 40px;
-  margin-top: 200px;
-  width: 696px;
+   margin: 0 auto;
+  /* margin-bottom: 40px; */
+  /* margin-top: 200px; */
+  max-width: 696px;
+ 
 }
 
-.hero-btn-link {
+/* .hero-btn-link {
   
   text-align: center;
   margin-bottom: 200px;
   padding: 10px;
   display: block;
-}
+} */
 
 .hero-btn {
-  display: inline-block;
+  display: block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -199,7 +203,8 @@ li.pointer {
   letter-spacing: 0.06em;
   color: var(--style-color);
   background: var(--accent-color);
-    
+  margin: 0 auto;
+  padding: 10px 32px;  
 }
 
 .main-btn {
@@ -275,6 +280,11 @@ li.pointer {
 
 /*main-skill*/
 
+ .main-skill {
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -289,9 +299,9 @@ li.pointer {
 }
 
 .skill {
-  display: inline-flex;
+  display: flex;
   gap: 30px;
- margin-bottom: 94px;
+ /* margin-bottom: 94px; */
 }
 
 .skill-container {
@@ -320,9 +330,9 @@ li.pointer {
 }
 
 .skill-style {
-  display: flex;
-  margin-bottom: 25px;
-  margin-top: 94px;
+  display: inline-flex;
+  margin-bottom: 10px;
+  /* margin-top: 94px; */
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -337,6 +347,11 @@ li.pointer {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.main-item {
+  flex-basis: 270px;
+  
 }
 
 .main-gallery {
@@ -363,11 +378,13 @@ li.pointer {
 
 .our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team {
   margin-bottom: 50px;
-  margin-top: 94px;
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -381,16 +398,20 @@ li.pointer {
   display: block;
   }
 
+  .work {
+    padding-bottom: 94px;
+  }
+
 .work-team {
   margin-bottom: 50px;
-  margin-top: 24px;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  text-transform: uppercase;
+  
 }
 
 .work-team-list {
@@ -422,6 +443,8 @@ li.pointer {
 
 .style-footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
   }
 
 .last-part-footer {
@@ -434,33 +457,35 @@ li.pointer {
   color: var(--style-color);
 }
 
-.footer-contact {
+/* .footer-contact {
   display: inline-block;
   margin-left: 215px;
   gap: 9px;
   margin-top: 60px;
   margin-bottom: 20px;
   
-} 
+} */
 
-.footer-list {
+/*.footer-list {
   margin-left: 215px;
   padding-left: 2px;
-}
+} */
 
-.footer-site-contakt {
-  display: inline-block;
-  margin-left: 215px;
-  text-align: center;
-  justify-content: center;
-}
+/*.footer-site-contakt {
+  
+  /*margin-left: 215px; */
+  /* text-align: center; 
+  justify-content: center; 
+} */
 
 .footer-logo {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
-  
 } 
+
+.footer-list {
+  margin-bottom: 9px;
+}
 
 .site-contact-list {
   display: inline-block;
@@ -470,12 +495,12 @@ li.pointer {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--style-color);
-  margin-bottom: 9px;
+
   
 }
 
 .footer-mail-link {
-  display: inline-block;
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -493,5 +518,5 @@ li.pointer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 60px;
+ 
 }
