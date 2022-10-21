@@ -86,18 +86,20 @@ li.pointer {
 
 /*Nav-link*/
 
-.header-nav,
 .header-style {
   background-color: var(--style-color);
   border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+  margin-right: 344px;
+  margin-left: 93px;
 }
 
 .header-nav-list {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-right: 344px;
-  margin-left: 93px;
 }
 
 .header-nav-link {
@@ -238,10 +240,6 @@ li.pointer {
   border: none;
 }
 
-.hero-btn {
-  cursor: pointer
-}
-
 .hero-main-btn,
 .hero-main-btn-one {
   cursor: pointer
@@ -269,7 +267,6 @@ li.pointer {
 }
 
 .main-container {
-  display: block;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -297,7 +294,6 @@ li.pointer {
 }
 
 .main-title {
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -307,8 +303,7 @@ li.pointer {
 
 .main-text {
   margin-top: 4px;
-  padding-bottom: 20px;
-  margin-left: 24px;
+  margin-left: 24px; 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -349,6 +344,7 @@ li.pointer {
 }
 
 .main-gallery-item {
+  padding: 20px 24px;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
@@ -387,7 +383,6 @@ li.pointer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  text-transform: uppercase;
 }
 
 .team-skil {
