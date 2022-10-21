@@ -403,8 +403,12 @@ li.pointer {
   color: var(--primary-text-color);
 }
 
+ .work-team-item {
+  padding: 30px 10px;
+ }
+
 .work-team-list {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -421,7 +425,7 @@ li.pointer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .work-team-style {
